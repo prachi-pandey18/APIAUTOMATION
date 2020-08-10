@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.testing.testScripts.postRequestTestCase"/>
+      <class name="org.testing.testScripts.getRequestTC"/>
+      <class name="org.testing.testScripts.getRequestUsingQueryParams"/>
+      <class name="org.testing.testScripts.PutRequestTestCase"/>
+      <class name="org.testing.testScripts.patchRequestTestCase"/>
+      <class name="org.testing.testScripts.deleteRequestTestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,16 @@
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/runner/runnerClass.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/utilities/JsonFileRead.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/utilities/JSONVariableReplacement.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/patchRequestTestCase.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testSteps/HTTPMethods.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/postRequestTestCase.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/getRequestTC.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/utilities/propertiesFileLoad.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/readKeysUsingKeysets.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/deleteRequestTestCase.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/PutRequestTestCase.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/getRequestUsingQueryParams.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/responseValidation/responseDataValidate.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/testScripts/readPayload1Json.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/responseValidation/responseStatusCodeValidate.java
+/Users/prachipandey/eclipse-workspace/AutomationAPI/src/test/java/org/testing/utilities/responseExtractionJSONPath.java
