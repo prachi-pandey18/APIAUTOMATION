@@ -1,15 +1,15 @@
 package org.testing.testScripts;
 
+import org.testing.responseValidation.responseStatusCodeValidate;
+import org.testing.testSteps.HTTPMethods;
+import org.testing.utilities.propertiesFileLoad;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.Test;
 import java.io.IOException;
 import java.util.Properties;
 
-import org.automationtesting.excelreport.Xl;
-import org.testing.responseValidation.responseStatusCodeValidate;
-import org.testing.testSteps.HTTPMethods;
-import org.testing.utilities.propertiesFileLoad;
-import org.testng.annotations.Test;
+//import org.automationtesting.excelreport.Xl;
+
 
 import io.restassured.response.Response;
 
@@ -18,9 +18,9 @@ import io.restassured.response.Response;
 public class deleteRequestTestCase {
 	@Test
 	@AfterSuite  
-	public void deleteRequestTC() throws Exception{
+	public void deleteRequestTC() throws IOException{
 		
-		Xl.generateReport("../Results.xlsx");
+	//	Xl.generateReport("../Results.xlsx");
 	
 	Properties pr= propertiesFileLoad.propertiesFile();
 	

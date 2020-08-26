@@ -11,4 +11,39 @@
       <class name="org.testing.testScripts.deleteRequestTestCase"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.testScripts.patchRequestTestCase">
+        <methods>
+          <include name="patchRequest"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.patchRequestTestCase -->
+      <class name="org.testing.testScripts.deleteRequestTestCase">
+        <methods>
+          <include name="deleteRequestTC"/>
+          <include name="deleteRequestTC"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.deleteRequestTestCase -->
+      <class name="org.testing.testScripts.PutRequestTestCase">
+        <methods>
+          <include name="putRequest"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.PutRequestTestCase -->
+      <class name="org.testing.testScripts.getRequestUsingQueryParams">
+        <methods>
+          <include name="TestCaseGetQueryParams"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.getRequestUsingQueryParams -->
+      <class name="org.testing.testScripts.getRequestTC">
+        <methods>
+          <include name="TestCaseGet"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.getRequestTC -->
+      <class name="org.testing.testScripts.postRequestTestCase">
+        <methods>
+          <include name="postRequestTC"/>
+        </methods>
+      </class> <!-- org.testing.testScripts.postRequestTestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

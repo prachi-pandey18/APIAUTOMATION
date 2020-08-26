@@ -6,6 +6,7 @@ org/testing/testScripts/deleteRequestTestCase.class
 org/testing/testScripts/patchRequestTestCase.class
 org/testing/responseValidation/responseDataValidate.class
 org/testing/testScripts/readPayload1Json.class
+org/testing/utilities/createBodyGsonLib.class
 org/testing/responseValidation/responseStatusCodeValidate.class
 org/testing/utilities/responseExtractionJSONPath.class
 org/testing/testScripts/getRequestUsingQueryParams.class
@@ -13,4 +14,5 @@ org/testing/runner/runnerClass.class
 org/testing/utilities/JsonFileRead.class
 org/testing/testScripts/readKeysUsingKeysets.class
 org/testing/testSteps/HTTPMethods.class
+org/testing/utilities/logsCapture.class
 org/testing/utilities/propertiesFileLoad.class

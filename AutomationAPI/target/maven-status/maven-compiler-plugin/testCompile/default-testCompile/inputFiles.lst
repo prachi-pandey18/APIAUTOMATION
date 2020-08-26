@@ -1,8 +1,10 @@
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/runner/runnerClass.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/utilities/JsonFileRead.java
+/Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/utilities/createBodyGsonLib.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/responseValidation/responseStatusCodeValidate.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/testScripts/getRequestTC.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/utilities/JSONVariableReplacement.java
+/Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/utilities/logsCapture.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/testScripts/PutRequestTestCase.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/utilities/responseExtractionJSONPath.java
 /Users/prachipandey/git/repository/AutomationAPI/src/test/java/org/testing/testScripts/getRequestUsingQueryParams.java
