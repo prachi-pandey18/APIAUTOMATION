@@ -17,6 +17,7 @@ import org.json.simple.parser.*;
 public class readPayload1Json {
 
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String args[]) throws IOException, ParseException {
 		
 
@@ -36,11 +37,19 @@ public class readPayload1Json {
 		FileReader reader = new FileReader("../AutomationAPI/payload1.json");
 	    JSONParser parser = new JSONParser() ;
 	    JSONObject object = (JSONObject) parser.parse(reader);
-	    JSONArray deviceListFromJSON = (JSONArray) object.get("Devices");
+	    JSONArray DeviceModels = (JSONArray) object.get("DeviceModels");
 	    reader.close();
-	    for (int i = 0; i < deviceListFromJSON.size(); i++) {
-	        JSONObject devices = (JSONObject) deviceListFromJSON.get(i);
-	        System.out.println(devices);
+	    for (int i = 0; i < DeviceModels.size(); i++) {
+	        JSONObject models = (JSONObject) DeviceModels.get(i);
+	        
+	        if (models.get("BrandName").toString().equals("") && models.get("Config").toString().equals("")
+	        		&& models.get("ModelNameValue").toString().equals("")) {
+	        	models.put("Config", "64GB");
+	        	models.put("BrandName", "Samsung");
+	        	models.put("ModelNameValue", "M30");
+	        	
+	        }
+	        System.out.println(models);
 	       
 	    }   
 	    

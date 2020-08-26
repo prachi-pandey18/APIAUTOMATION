@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
@@ -23,5 +23,13 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/ATExcelReport.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/jfreechart-dependency-jcommon-1.0.12.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/jfreechart.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/poi-3.15.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/poi-ooxml-3.15.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/poi-ooxml-schemas-3.15.jar"/>
+	<classpathentry kind="lib" path="/Users/prachipandey/Downloads/ATExcel/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

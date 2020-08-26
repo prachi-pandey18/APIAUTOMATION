@@ -2,42 +2,42 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4461" started-at="2020-08-04T11:02:15Z" finished-at="2020-08-04T11:02:20Z">
+  <suite name="Suite" duration-ms="2374" started-at="2020-08-12T07:43:33Z" finished-at="2020-08-12T07:43:35Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="4461" started-at="2020-08-04T11:02:15Z" finished-at="2020-08-04T11:02:20Z">
+    <test name="Test" duration-ms="2374" started-at="2020-08-12T07:43:33Z" finished-at="2020-08-12T07:43:35Z">
       <class name="org.testing.testScripts.postRequestTestCase">
-        <test-method status="PASS" signature="postRequestTC()[pri:0, instance:org.testing.testScripts.postRequestTestCase@2d209079]" name="postRequestTC" duration-ms="4005" started-at="2020-08-04T16:32:15Z" finished-at="2020-08-04T16:32:19Z">
+        <test-method status="PASS" signature="postRequestTC()[pri:0, instance:org.testing.testScripts.postRequestTestCase@2d209079]" name="postRequestTC" duration-ms="2061" started-at="2020-08-12T13:13:33Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postRequestTC -->
       </class> <!-- org.testing.testScripts.postRequestTestCase -->
       <class name="org.testing.testScripts.patchRequestTestCase">
-        <test-method status="PASS" signature="patchRequest()[pri:0, instance:org.testing.testScripts.patchRequestTestCase@7c75222b]" name="patchRequest" duration-ms="115" started-at="2020-08-04T16:32:20Z" finished-at="2020-08-04T16:32:20Z">
+        <test-method status="PASS" signature="patchRequest()[pri:0, instance:org.testing.testScripts.patchRequestTestCase@7c75222b]" name="patchRequest" duration-ms="83" started-at="2020-08-12T13:13:35Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchRequest -->
       </class> <!-- org.testing.testScripts.patchRequestTestCase -->
       <class name="org.testing.testScripts.getRequestTC">
-        <test-method status="PASS" signature="TestCaseGet()[pri:0, instance:org.testing.testScripts.getRequestTC@2752f6e2]" name="TestCaseGet" duration-ms="96" started-at="2020-08-04T16:32:19Z" finished-at="2020-08-04T16:32:19Z">
+        <test-method status="PASS" signature="TestCaseGet()[pri:0, instance:org.testing.testScripts.getRequestTC@2752f6e2]" name="TestCaseGet" duration-ms="64" started-at="2020-08-12T13:13:35Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseGet -->
       </class> <!-- org.testing.testScripts.getRequestTC -->
       <class name="org.testing.testScripts.deleteRequestTestCase">
-        <test-method status="PASS" signature="deleteRequestTC()[pri:0, instance:org.testing.testScripts.deleteRequestTestCase@4c203ea1]" name="deleteRequestTC" duration-ms="25" started-at="2020-08-04T16:32:20Z" finished-at="2020-08-04T16:32:20Z">
+        <test-method status="PASS" signature="deleteRequestTC()[pri:0, instance:org.testing.testScripts.deleteRequestTestCase@4c203ea1]" name="deleteRequestTC" duration-ms="47" started-at="2020-08-12T13:13:35Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteRequestTC -->
       </class> <!-- org.testing.testScripts.deleteRequestTestCase -->
       <class name="org.testing.testScripts.getRequestUsingQueryParams">
-        <test-method status="PASS" signature="TestCaseGetQueryParams()[pri:0, instance:org.testing.testScripts.getRequestUsingQueryParams@e580929]" name="TestCaseGetQueryParams" duration-ms="71" started-at="2020-08-04T16:32:19Z" finished-at="2020-08-04T16:32:20Z">
+        <test-method status="PASS" signature="TestCaseGetQueryParams()[pri:0, instance:org.testing.testScripts.getRequestUsingQueryParams@e580929]" name="TestCaseGetQueryParams" duration-ms="46" started-at="2020-08-12T13:13:35Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestCaseGetQueryParams -->
       </class> <!-- org.testing.testScripts.getRequestUsingQueryParams -->
       <class name="org.testing.testScripts.PutRequestTestCase">
-        <test-method status="PASS" signature="putRequest()[pri:0, instance:org.testing.testScripts.PutRequestTestCase@1cd072a9]" name="putRequest" duration-ms="97" started-at="2020-08-04T16:32:20Z" finished-at="2020-08-04T16:32:20Z">
+        <test-method status="PASS" signature="putRequest()[pri:0, instance:org.testing.testScripts.PutRequestTestCase@1cd072a9]" name="putRequest" duration-ms="49" started-at="2020-08-12T13:13:35Z" finished-at="2020-08-12T13:13:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putRequest -->

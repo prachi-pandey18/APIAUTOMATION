@@ -14,7 +14,7 @@ public class runnerClass {
 	
 	
 	
-	public static void main(String args[]) throws IOException {
+	public static void main(String args[]) throws Exception {
 		
 		postRequestTestCase post= new postRequestTestCase();
 		System.out.print("Post is executing");

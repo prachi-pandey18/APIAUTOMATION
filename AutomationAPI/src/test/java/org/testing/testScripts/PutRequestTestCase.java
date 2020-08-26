@@ -12,6 +12,7 @@ import org.testing.responseValidation.responseStatusCodeValidate;
 import org.testing.testSteps.HTTPMethods;
 import org.testing.utilities.JSONVariableReplacement;
 import org.testing.utilities.JsonFileRead;
+import org.testing.utilities.logsCapture;
 import org.testing.utilities.propertiesFileLoad;
 import org.testing.utilities.responseExtractionJSONPath;
 import org.testng.annotations.Test;
@@ -28,6 +29,8 @@ public class PutRequestTestCase {
 		//System.out.print(object);
 		
 		object = object.put("firstname", "SuperMan");
+		
+		logsCapture.takeLogs("PutRequestTestCase", "In put request object is Superman as firstName");
 		//System.out.print(object);
 		Properties pr= propertiesFileLoad.propertiesFile();
 		
